@@ -31,6 +31,7 @@
 					]
 				},
 				"mc_text_title": "Raid. Molten Core - Heroic",
+				"mc_text": "<pre>[Gryphon.Data.Tooltip(\"The difficulty of the mission version, this is used to drive bolt on data in heroic raids and sieges.\")]\npublic MissionDifficulty m_missionDifficulty;\n\npublic enum MissionDifficulty\nDefault = 0\nHeroic = 1\nMythic = 2</pre>",
 				"mc_img": {
 					"12.0.0.114816": [
 						"sactx-0-2048x2048-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8",
@@ -46,6 +47,7 @@
 					]
 				},
 				"nl_text_title": "New Leader. Chromaggus [WIP]. Blackrock",
+				"nl_text": "<pre>Unlocked by collecting Chromaggus\nChromaggus Portrait</pre>",
 				"nl_img": {
 					"12.0.0.114816": [
 						"Statue_Base_Split_Blackrock_Horde_Pose",
