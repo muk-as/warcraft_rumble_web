@@ -19,7 +19,7 @@
 			}
 		],
 		[
-			"[12.0.0.114816] S13 Avatars, MC Heroic, Army Loadouts, Leader Chromaggus, Arthas Reforged, Shop Offers",
+			"[12.0.0.114816] S13 Avatars, MC Heroic, Army Loadouts, Leader Chromaggus, Mini Skins, Arthas Reforged, Shop Offers",
 			1742019475,
 			{
 				"avatar_text_title": "Season 13. PvP Profile Avatars",
@@ -50,6 +50,16 @@
 					"12.0.0.114816": [
 						"Statue_Base_Split_Blackrock_Horde_Pose",
 						"jolt"
+					]
+				},
+				"skin_text_title": "Mini Skins. Jaina Blue & Pink Test",
+				"skin_text": "<pre>[Gryphon.Data.Tooltip(\"Default skin used for this Army. Can be overriden by the player equipment if this is a Player army.This is can be any skin for any mini and it will check against the mini and use the skin if that mini is in the army.This only intende for the use of one skin per mini for missions in the case of two or more skins for a mini in this listit will use the first one it finds.\")]\npublic Skin.Reference[] MiniSkins;</pre>First Minis with Default Skin:<pre>ChainLightning_DefaultSkin\nDarkspearTroll_DefaultSkin\nGnollBrute_DefaultSkin\nGryphonRider_DefaultSkin\nJainaLeader_DefaultSkin\nS.A.F.E.PilotFlyingMachine_DefaultSkin</pre>",
+				"skin_img": {
+					"12.0.0.114816": [
+						"JainaBlue_Indicator_Pose",
+						"JainaBlue_Statue_Pose",
+						"JainaPink_Indicator_Pose",
+						"JainaPink_Statue_Pose"
 					]
 				},
 				"arthas_text_title": "Event. Arthas Reforged [WIP]. The Lich King",
