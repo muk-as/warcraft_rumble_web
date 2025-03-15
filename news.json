@@ -36,7 +36,7 @@
 						"sactx-2-2048x1024-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8"
 					]
 				},
-				"loadouts_text": "Army Loadouts. Customize your builds with\n<pre>ARMY LOADOUTS!\nSet up multiple loadouts per leader with separate troops, talents, and cosmetics!\nSHARE LOADOUTS\nCopy your loadout code to share a set of troops and talents in guild chat, online, or to copy them to another leader!\n*Unowned minis/talents will not be equipped</pre>",
+				"loadouts_text": "Army Loadouts. Customize your builds with. \n<pre>ARMY LOADOUTS!\nSet up multiple loadouts per leader with separate troops, talents, and cosmetics!\nSHARE LOADOUTS\nCopy your loadout code to share a set of troops and talents in guild chat, online, or to copy them to another leader!\n*Unowned minis/talents will not be equipped\nIGM 2025-03-03 18:00:00Z - 2025-03-19 18:00:00Z</pre>",
 				"loadouts_img": {
 					"12.0.0.114816": [
 						"InGameMessaging_Tex_Background_2"
@@ -49,7 +49,7 @@
 						"jolt"
 					]
 				},
-				"arthas_text": "Event. Arthas Reforged [WIP]. The Lich King\n<pre>ARTHAS\nBattle the Lich King and climb up Icecrown Citadel's treacherous towers! Unlock the new Arthas Leader and shatter your enemy's frozen souls!</pre>",
+				"arthas_text": "Event. Arthas Reforged [WIP]. The Lich King\n<pre>ARTHAS\nBattle the Lich King and climb up Icecrown Citadel's treacherous towers! Unlock the new Arthas Leader and shatter your enemy's frozen souls!\nIGM 2025-03-19 18:00:00Z - 2025-04-02 18:00:00Z</pre>",
 				"arthas_img": {
 					"12.0.0.114816": [
 						"indicator_Arthas",
