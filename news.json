@@ -11,9 +11,14 @@
 			}
 		],
 		[
-			"[Patch Notes] Season 13",
+			"[Blizzard] Patch Notes: Season 13",
 			1741825174,
 			{
+				"blizzard_img": {
+					"blizzard": [
+						"Patch Notes Season 13"
+					]
+				},
 				"content": "Season 13 is coming, bringing Arthas Menethil, the Lich King, as a new Alliance and Undead Split Leader. We've made adjustments to Leaders, Troops, and Frostwolf Shaman in PvP.",
 				"link": "https://news.blizzard.com/article/24182549/"
 			}
@@ -96,7 +101,20 @@
 				},
 				"shop_link": "?tab=store"
 			}
+		],
+		[
+			"[Blizzard] Season 13 is Going to be Heroic!",
+			1742415841,
+			{
+				"blizzard_img": {
+					"blizzard": [
+						"Season 13 is Going to be Heroic!"
+					]
+				},
+				"content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader.",
+				"link": "https://news.blizzard.com/article/24177511/"
+			}
 		]
 	],
-	"timestamp": 1742019475
+	"timestamp": 1742415841
 }
