@@ -21,11 +21,13 @@
 			}
 		],
 		[
-			"[11.1.0.112797] Leader Balance",
+			"[11.1.0.112797] Leader Balance & Troop Balance",
 			1737396000,
 			{
 				"leader_text_title": "Leader Balance",
-				"leader_text": "<pre><b>Malfurion</b>\n•Healing over time reduced from 88 per second to 70 per second.\n\n<b>Onu</b>\n•Health increased by 35%\n\n<b>Ysera</b>\n•Emerald Whelps gain the Unbound Trait\n•Emerald Drake gains the Resistant Trait\n•Hibernate gold cost reduced from 2 to 1.\n\n<b>Sneed</b>\n•Health increased by 30%\n\n<font=\"Font_Header\"><Size=24><u><b>Troop Balance</u></b></size></font>\n\n<b>Druid of the Claw</b>\n•Health in Bear Form increased by 30%\n•Damage in Bear Form increased by 10%\n\n<b>Swole Troll</b>\n•Trollnado - Slightly increased range of effect\n•Trollnado - Attack speed increased from 8 to 7\n•Trollnado - More consistently does not target things it cannot knock back\n•Meatier Elbow - Damage increased from 200 to 210\n•Meatier Elbow - Attack speed increased from 4 to 3.2\n\n<b>Plague Farmer</b>\n•Health increased by 25%\n\n<b>Earth Elemental</b>\n•Health increased by 10%.\n\n<b>Ancient of War</b>\n•Lightning Rod - Requires spending 5 gold or more to redirect spells (up from 4)</pre>"
+				"leader_text": "<pre><b>Malfurion</b>\n•Healing over time reduced from 88 per second to 70 per second.\n\n<b>Onu</b>\n•Health increased by 35%\n\n<b>Ysera</b>\n•Emerald Whelps gain the Unbound Trait\n•Emerald Drake gains the Resistant Trait\n•Hibernate gold cost reduced from 2 to 1.\n\n<b>Sneed</b>\n•Health increased by 30%</pre>",
+				"troop_text_title": "Troop Balance",
+				"troop_text": "<pre><b>Druid of the Claw</b>\n•Health in Bear Form increased by 30%\n•Damage in Bear Form increased by 10%\n\n<b>Swole Troll</b>\n•Trollnado - Slightly increased range of effect\n•Trollnado - Attack speed increased from 8 to 7\n•Trollnado - More consistently does not target things it cannot knock back\n•Meatier Elbow - Damage increased from 200 to 210\n•Meatier Elbow - Attack speed increased from 4 to 3.2\n\n<b>Plague Farmer</b>\n•Health increased by 25%\n\n<b>Earth Elemental</b>\n•Health increased by 10%.\n\n<b>Ancient of War</b>\n•Lightning Rod - Requires spending 5 gold or more to redirect spells (up from 4)</pre>"
 			}
 		],
 		[
