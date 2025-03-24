@@ -114,7 +114,33 @@
 				"content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader.",
 				"link": "https://news.blizzard.com/article/24177511/"
 			}
+		],
+		[
+			"[Blizzard] Earn Epic Rewards in Heroic Stormwind Siege",
+			1742836336,
+			{
+				"blizzard_img": {
+					"blizzard": [
+						"Earn Epic Rewards in Heroic Stormwind Siege"
+					]
+				},
+				"content": "Get ready to lay siege to the Alliance city of Stormwind! Claim victory in the new Normal and Heroic difficulties to earn epic rewards!",
+				"link": "https://news.blizzard.com/article/24182545/"
+			}
+		],
+		[
+			"[Blizzard] Challenge the Lich King and his Minions",
+			1742836337,
+			{
+				"blizzard_img": {
+					"blizzard": [
+						"Challenge the Lich King and his Minions"
+					]
+				},
+				"content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader. Arthas will be the first Leader to receive skins. Alongside Arthas, we have plans for additional Mini skins that will be coming soon, some sooner than others.",
+				"link": "https://news.blizzard.com/article/24177510/"
+			}
 		]
 	],
-	"timestamp": 1742415841
+	"timestamp": 1742836337
 }
