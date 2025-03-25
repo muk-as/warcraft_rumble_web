@@ -140,7 +140,48 @@
 				"content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader. Arthas will be the first Leader to receive skins. Alongside Arthas, we have plans for additional Mini skins that will be coming soon, some sooner than others.",
 				"link": "https://news.blizzard.com/article/24177510/"
 			}
+		],
+		[
+			"[12.0.0.115174] Leader Arthas Mini, Arthas Reforged Event, Shop Offers",
+			1742938660,
+			{
+				"mini_text_title": "Mini. Leader Arthas",
+				"mini_video": {
+					"12.0.0.115174": [
+						"Gryphon_MiniShorts_Arthas"
+					]
+				},
+				"mini_img": {
+					"12.0.0.115174": [
+						"ArthasLeader_Indicator_Icon",
+						"ArthasLeader_Statue",
+						"Portrait_Leader_Arthas",
+						"talent_icytalons",
+						"talent_necroticplague",
+						"talent_purgatory"
+					]
+				},
+				
+				"event_text_title": "Event. Arthas Reforged",
+				"event_text": "<pre><b>A sharply frigid air fills your lungs, and for a brief moment, the dense fog clears ever so slightly... towering above the corrupted mists, you see the ominous and unmistakable silhouette of Icecrown Citadel! The freezing air permeates your entire being - somehow, your very soul feels icy and brittle. Enter, brave one, and battle your way up towards the Frozen Throne, to vanquish the Lich King Arthas! Rise to the occasion and fight your way through Normal, Heroic, and Mythic variants! Unlock the brand new Arthas Menethil leader, and harness his Soulshattering, skeleton-raising might against your foes!</b><br><br><b>The Lower Spire (Normal):</b> Arthas calls Mor'Ladim into service to patrol the Lower Spire! Minis who die near them are converted into enemy Skeleton Mages! Look out for Arthas's Frost aura, along with periodic Skeletal summons at buildings he controls, and more Skeletal summons at certain health thresholds!<br><br><b>The Pit of Saron (Normal):</b> Arthas continues to summon Skeletal reinforcements, and enlists the help of dangerous Gargoyles to dismantle your fortifications! Be wary of his Winter Storms, freezing your Minis, who damage nearby allies when they snap out!<br><br><b>The Frozen Throne (Normal):</b> Arthas empowers himself for his final stand, and brings new abilities to the fight! Be on the watch for Undead Footmen summons, AOE anti-air, and more. Steel yourself against his menacing Death Grip, pulling Ranged Minis into his grasp. Guard your buildings from his deadly Defile, slowly corrupting and crumbling your defenses! Will you prevail?<br><br><b>The Lower Spire (Heroic):</b> All enemies gain 2 levels! Mini-Rattlegores patrol the area, and Mor'Ladim gains a Frost aura!<br><br><b>The Pit of Saron (Heroic):</b> All enemies gain 2 levels! Additional Gargoyles and Mini-Gishes wait menacingly on the path to Arthas. Explosive Abominations join the fight, and Winter Storms are more frequent!<br><br><b>The Frozen Throne (Heroic):</b> All enemies gain 2 levels! Arthas gains Icy Talons, granting him increased attack speed for each of your nearby Minis!<br><br><b>The Lower Spire (Mythic):</b> All enemies gain 4 levels! Mor'Ladim summons Undead Footmen on death! Arthas and Mor'Ladim send out map-wise Frost waves at 50% health!<br><br><b>The Pit of Saron (Mythic):</b> All enemies gain 4 levels! Gish awaits you in true form. Your Minis are subject to Soulshatter - while Frosted, any damage below 20% health will kill them instantly! Arthas also applies Poison with his Winter Storms and at health thresholds!<br><br><b>The Frozen Throne (Mythic):</b> All enemies gain 4 levels! Baron Rivendare arrives to protect Arthas and summon additional Skeletons to the fight! Arthas takes towers and Freezes your Minis more often!</pre>",
+				"event_img": {
+					"12.0.0.115174": [
+						"LoadingScreen_Tex_Arthas",
+						"sactx-0-2048x4096-Uncompressed-SeasonalEvents_Atl_UI_Arthas-32f2902c"
+					]
+				},
+				"event_link": "?tab=events",
+				
+				"shop_text_title": "Shop Offers",
+				"shop_text": "<pre>Crown Prince of Lordaeron\nEpic Arthas Awakens\nPillars of Frost</pre>",
+				"shop_img": {
+					"12.0.0.115174": [
+						"Store_Tex_ArthasBundle_Large"
+					]
+				},
+				"shop_link": "?tab=store"
+			}
 		]
 	],
-	"timestamp": 1742836337
+	"timestamp": 1742938660
 }
