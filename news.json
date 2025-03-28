@@ -181,7 +181,20 @@
 				},
 				"shop_link": "?tab=store"
 			}
+		],
+		[
+			"[Blizzard] Hotfix for the Lich King Event and Heroic Stormwind",
+			1743201495,
+			{
+				"blizzard_img": {
+					"blizzard": [
+						"Hotfix for the Lich King Event and Heroic Stormwind"
+					]
+				},
+				"content": "We've slightly reduced the difficulty for Normal Lower Spire, fixed an issue with Lich King skipping phase transitions, and fixed an issue that kept Highlord Bolvar Fordragon from activating his Consecrate ability in Heroic Stormwind Siege.",
+				"link": "https://news.blizzard.com/article/24188489/"
+			}
 		]
 	],
-	"timestamp": 1742938660
+	"timestamp": 1743201495
 }
