@@ -1,200 +1,213 @@
 {
-	"enUS": [
-		[
-			"[11.2.0.113834] Custom Matchmaking & Event Missions",
-			1740424742,
-			{
-				"cm_text_title": "Custom Matchmaking with selected number of players",
-				"cm_text": "<pre>public Gryphon.Data.PvpSeasonComposition m_seasonComposition;\npublic int? m_playerCount;\npublic Guid m_missionGuid;\nCustomMatchmakingSettings(Gryphon.Data.PvpSeasonComposition seasonComposition, int? playerCount, Guid missionGuid);\n\nBeginCustomMatchmaking(IPvpMatchmakingService.CustomMatchmakingSettings matchmakingSettings);\nSendJoinCustomMatchmakerRequest(IPvpMatchmakingService.CustomMatchmakingSettings matchmakingSettings);</pre>",
-				"em_text_title": "Event Missions",
-				"em_text": "<pre>\"A one-tab version of the tabs subview that shows Rewards\"\n\"A two-tab version of the tabs subview that shows Challenges, Rewards\"\n\"A three-tab version of the tabs subview that shows Challenges, Missions, Rewards\"\n\nGryphon.Client.UI.SeasonalEvents.EventMissionInfo\nGryphon.Client.UI.SeasonalEvents.EventMissionList\n\nm_allowMultiples\n\"If checked, you can go beyond 1 instance of the mini at a time. This is useful for when you wantto add a mini to a deck, but ignore the add if the user already has that mini in the deck.\"\n\nm_gameplayConfigs\n\"Configuration for specific missions launched by this event.\nContent Gate = (Optional) Mission can only be played if the content gate is unlocked\nRequirement = (Optional) Mission can only be played if the requirement is met\nMission Ref = (Required) Mission to launch\nMission Variant = (Required) Variant of the mission to launch\nEvent Mode = (Optional) Special event mode to apply during the mission\nEvent Currency Reward For Mission = (Required) Amount of event currency to reward for playing\nShort Description = (Optional) Description which appears in mission list.\nShort Description Popup Format = (Optional) If set, the short description will also appear in the mission popup, using this format.\nLong Description = (Optional) Description which appears in mission popup. If unset, descriptions will come from the Event Mode or Mission Glue Info\"\n\nm_missionActiveText\n\"SeasonalEventContentGate/MissionActive\", \"Shown in mission list while missions are active\"\nm_missionLockedText\n\"SeasonalEventContentGate/MissionLocked\", \"Shown in mission list before missions are unlocked\"\n\nm_shortDescription\n\"SeasonalEvents/GameplayConfig/ShortDescription\", \"Short description text which appears in event mission list or popup\"\n\nm_requirementsMetFormat\n\"EventMissionInfo/RequirementsMet\", \"Describes mission requirements that have been met within the dialog body\"\nm_requirementsTooltipFormat\n\"EventMissionInfo/RequirementsTooltip\", \"Describes mission requirements that have not yet been met within the button tooltip\"\nm_requirementsUnmetFormat\n\"EventMissionInfo/RequirementsUnmet\", \"Describes mission requirements that have not yet been met within the dialog body\"</pre>"
-			}
-		],
-		[
-			"[Blizzard] Patch Notes: Season 13",
-			1741825174,
-			{
-				"blizzard_img": {
-					"blizzard": [
-						"Patch Notes Season 13"
-					]
-				},
-				"content": "Season 13 is coming, bringing Arthas Menethil, the Lich King, as a new Alliance and Undead Split Leader. We've made adjustments to Leaders, Troops, and Frostwolf Shaman in PvP.",
-				"link": "https://news.blizzard.com/article/24182549/"
-			}
-		],
-		[
-			"[12.0.0.114816] S13 Avatars, MC Heroic, Army Loadouts, Leader Chromaggus, Mini Skins, Arthas Reforged, Shop Offers",
-			1742019475,
-			{
-				"avatar_text_title": "Season 13. PvP Profile Avatars",
-				"avatar_img": {
-					"12.0.0.114816": [
-						"Indicator_PVP_Season13_Rank_1",
-						"Indicator_PVP_Season13_Rank_2",
-						"Indicator_PVP_Season13_Rank_3"
-					]
-				},
-				
-				"mc_text_title": "Raid. Molten Core - Heroic",
-				"mc_text": "<pre>[Gryphon.Data.Tooltip(\"The difficulty of the mission version, this is used to drive bolt on data in heroic raids and sieges.\")]\npublic MissionDifficulty m_missionDifficulty;\n\npublic enum MissionDifficulty\nDefault = 0\nHeroic = 1\nMythic = 2</pre>",
-				"mc_img": {
-					"12.0.0.114816": [
-						"sactx-0-2048x2048-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8",
-						"sactx-1-2048x2048-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8",
-						"sactx-2-2048x1024-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8"
-					]
-				},
-				
-				"loadouts_text_title": "Army Loadouts. Customize your builds with",
-				"loadouts_text": "<pre>ARMY LOADOUTS!\nSet up multiple loadouts per leader with separate troops, talents, and cosmetics!\nSHARE LOADOUTS\nCopy your loadout code to share a set of troops and talents in guild chat, online, or to copy them to another leader!\n*Unowned minis/talents will not be equipped\nIGM 2025-03-03 18:00:00Z - 2025-03-19 18:00:00Z</pre>",
-				"loadouts_img": {
-					"12.0.0.114816": [
-						"InGameMessaging_Tex_Background_2"
-					]
-				},
-				
-				"nl_text_title": "New Leader. Chromaggus [WIP]. Blackrock",
-				"nl_text": "<pre>Unlocked by collecting Chromaggus\nChromaggus Portrait\nFamilyBeastBlackrock.data</pre>",
-				"nl_img": {
-					"12.0.0.114816": [
-						"Statue_Base_Split_Blackrock_Horde_Pose",
-						"jolt"
-					]
-				},
-				
-				"skin_text_title": "Mini Skins. Jaina Blue & Pink Test",
-				"skin_text": "<pre>[Gryphon.Data.Tooltip(\"Default skin used for this Army. Can be overriden by the player equipment if this is a Player army.This is can be any skin for any mini and it will check against the mini and use the skin if that mini is in the army.This only intende for the use of one skin per mini for missions in the case of two or more skins for a mini in this listit will use the first one it finds.\")]\npublic Skin.Reference[] MiniSkins;</pre>",
-				"skin_img": {
-					"12.0.0.114816": [
-						"JainaBlue_Indicator_Pose",
-						"JainaBlue_Statue_Pose",
-						"JainaPink_Indicator_Pose",
-						"JainaPink_Statue_Pose"
-					]
-				},
-				"skin2_text": "Skin Rarity<pre>[Tooltip(\"The rarity of this cosmetic, this will dictated how the ui is displayed,currently only supported for mini skins.\")]\npublic CosmeticsSettings.SkinRarity m_rarity;\n\npublic enum SkinRarity\nCommon = 0\nUncommon = 1\nRare = 2\nEpic = 3\nLegendary = 4\nMythic = 5</pre>",
-				"skin3_text": "First Minis with Default Skin<pre>ChainLightning_DefaultSkin\nDarkspearTroll_DefaultSkin\nGnollBrute_DefaultSkin\nGryphonRider_DefaultSkin\nJainaLeader_DefaultSkin\nS.A.F.E.PilotFlyingMachine_DefaultSkin</pre>",
-				
-				"arthas_text_title": "Event. Arthas Reforged [WIP]. The Lich King",
-				"arthas_text": "<pre>ARTHAS\nBattle the Lich King and climb up Icecrown Citadel's treacherous towers! Unlock the new Arthas Leader and shatter your enemy's frozen souls!\nIGM 2025-03-19 18:00:00Z - 2025-04-02 18:00:00Z</pre>",
-				"arthas2_text": "<pre>[Tooltip(\"Featured items that bypass the weekly theme, with start and end times.\")]\npublic FeaturedItemConfig[] m_featuredItems;</pre>",
-				"arthas_img": {
-					"12.0.0.114816": [
-						"indicator_Arthas",
-						"InGamePopup_Tex_Arthas",
-						"SeasonalEvents_Tex_Island_Arthas",
-						"SeasonalEvents_Tex_Island_Innactive_Arthas",
-						"sactx-0-2048x4096-Uncompressed-SeasonalEvents_Atl_UI_Arthas-dec4d45b"
-					]
-				},
-				"arthas_link": "?tab=events",
-				
-				"shop_text_title": "Shop Offers",
-				"shop_text": "<pre>Pillars of Frost\nCrown Prince of Lordaeron\nKobold Cenarion</pre>",
-				"shop_img": {
-					"12.0.0.114816": [
-						"Store_Tex_Bundle_Tower_Icecrown",
-						"Store_Tex_Bundle_Skin_Arthas_Prince",
-						"KoboldCenarionSkin_Statue"
-					]
-				},
-				"shop_link": "?tab=store"
-			}
-		],
-		[
-			"[Blizzard] Season 13 is Going to be Heroic!",
-			1742415841,
-			{
-				"blizzard_img": {
-					"blizzard": [
-						"Season 13 is Going to be Heroic!"
-					]
-				},
-				"content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader.",
-				"link": "https://news.blizzard.com/article/24177511/"
-			}
-		],
-		[
-			"[Blizzard] Earn Epic Rewards in Heroic Stormwind Siege",
-			1742836336,
-			{
-				"blizzard_img": {
-					"blizzard": [
-						"Earn Epic Rewards in Heroic Stormwind Siege"
-					]
-				},
-				"content": "Get ready to lay siege to the Alliance city of Stormwind! Claim victory in the new Normal and Heroic difficulties to earn epic rewards!",
-				"link": "https://news.blizzard.com/article/24182545/"
-			}
-		],
-		[
-			"[Blizzard] Challenge the Lich King and his Minions",
-			1742836337,
-			{
-				"blizzard_img": {
-					"blizzard": [
-						"Challenge the Lich King and his Minions"
-					]
-				},
-				"content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader. Arthas will be the first Leader to receive skins. Alongside Arthas, we have plans for additional Mini skins that will be coming soon, some sooner than others.",
-				"link": "https://news.blizzard.com/article/24177510/"
-			}
-		],
-		[
-			"[12.0.0.115174] Leader Arthas Menethil Mini, Arthas Reforged Event, Shop Offers",
-			1742938660,
-			{
-				"mini_text_title": "Mini. Leader Arthas Menethil",
-				"mini_video": {
-					"12.0.0.115174": [
-						"Gryphon_MiniShorts_Arthas"
-					]
-				},
-				"mini_img": {
-					"12.0.0.115174": [
-						"ArthasLeader_Indicator_Icon",
-						"ArthasLeader_Statue",
-						"Portrait_Leader_Arthas",
-						"talent_icytalons",
-						"talent_necroticplague",
-						"talent_purgatory"
-					]
-				},
-				
-				"event_text_title": "Event. Arthas Reforged",
-				"event_text": "<pre><b>A sharply frigid air fills your lungs, and for a brief moment, the dense fog clears ever so slightly... towering above the corrupted mists, you see the ominous and unmistakable silhouette of Icecrown Citadel! The freezing air permeates your entire being - somehow, your very soul feels icy and brittle. Enter, brave one, and battle your way up towards the Frozen Throne, to vanquish the Lich King Arthas! Rise to the occasion and fight your way through Normal, Heroic, and Mythic variants! Unlock the brand new Arthas Menethil leader, and harness his Soulshattering, skeleton-raising might against your foes!</b><br><br><b>The Lower Spire (Normal):</b> Arthas calls Mor'Ladim into service to patrol the Lower Spire! Minis who die near them are converted into enemy Skeleton Mages! Look out for Arthas's Frost aura, along with periodic Skeletal summons at buildings he controls, and more Skeletal summons at certain health thresholds!<br><br><b>The Pit of Saron (Normal):</b> Arthas continues to summon Skeletal reinforcements, and enlists the help of dangerous Gargoyles to dismantle your fortifications! Be wary of his Winter Storms, freezing your Minis, who damage nearby allies when they snap out!<br><br><b>The Frozen Throne (Normal):</b> Arthas empowers himself for his final stand, and brings new abilities to the fight! Be on the watch for Undead Footmen summons, AOE anti-air, and more. Steel yourself against his menacing Death Grip, pulling Ranged Minis into his grasp. Guard your buildings from his deadly Defile, slowly corrupting and crumbling your defenses! Will you prevail?<br><br><b>The Lower Spire (Heroic):</b> All enemies gain 2 levels! Mini-Rattlegores patrol the area, and Mor'Ladim gains a Frost aura!<br><br><b>The Pit of Saron (Heroic):</b> All enemies gain 2 levels! Additional Gargoyles and Mini-Gishes wait menacingly on the path to Arthas. Explosive Abominations join the fight, and Winter Storms are more frequent!<br><br><b>The Frozen Throne (Heroic):</b> All enemies gain 2 levels! Arthas gains Icy Talons, granting him increased attack speed for each of your nearby Minis!<br><br><b>The Lower Spire (Mythic):</b> All enemies gain 4 levels! Mor'Ladim summons Undead Footmen on death! Arthas and Mor'Ladim send out map-wise Frost waves at 50% health!<br><br><b>The Pit of Saron (Mythic):</b> All enemies gain 4 levels! Gish awaits you in true form. Your Minis are subject to Soulshatter - while Frosted, any damage below 20% health will kill them instantly! Arthas also applies Poison with his Winter Storms and at health thresholds!<br><br><b>The Frozen Throne (Mythic):</b> All enemies gain 4 levels! Baron Rivendare arrives to protect Arthas and summon additional Skeletons to the fight! Arthas takes towers and Freezes your Minis more often!</pre>",
-				"event_img": {
-					"12.0.0.115174": [
-						"LoadingScreen_Tex_Arthas",
-						"sactx-0-2048x4096-Uncompressed-SeasonalEvents_Atl_UI_Arthas-32f2902c"
-					]
-				},
-				"event_link": "?tab=events",
-				
-				"shop_text_title": "Shop Offers",
-				"shop_text": "<pre>Crown Prince of Lordaeron\nEpic Arthas Awakens\nPillars of Frost</pre>",
-				"shop_img": {
-					"12.0.0.115174": [
-						"Store_Tex_ArthasBundle_Large"
-					]
-				},
-				"shop_link": "?tab=store"
-			}
-		],
-		[
-			"[Blizzard] Hotfix for the Lich King Event and Heroic Stormwind",
-			1743201495,
-			{
-				"blizzard_img": {
-					"blizzard": [
-						"Hotfix for the Lich King Event and Heroic Stormwind"
-					]
-				},
-				"content": "We've slightly reduced the difficulty for Normal Lower Spire, fixed an issue with Lich King skipping phase transitions, and fixed an issue that kept Highlord Bolvar Fordragon from activating his Consecrate ability in Heroic Stormwind Siege.",
-				"link": "https://news.blizzard.com/article/24188489/"
-			}
-		]
-	],
-	"timestamp": 1743201495
+    "enUS": [
+        [
+            "[11.2.0.113834] Custom Matchmaking & Event Missions",
+            1740424742,
+            {
+                "cm_text_title": "Custom Matchmaking with selected number of players",
+                "cm_text": "<pre>public Gryphon.Data.PvpSeasonComposition m_seasonComposition;\npublic int? m_playerCount;\npublic Guid m_missionGuid;\nCustomMatchmakingSettings(Gryphon.Data.PvpSeasonComposition seasonComposition, int? playerCount, Guid missionGuid);\n\nBeginCustomMatchmaking(IPvpMatchmakingService.CustomMatchmakingSettings matchmakingSettings);\nSendJoinCustomMatchmakerRequest(IPvpMatchmakingService.CustomMatchmakingSettings matchmakingSettings);</pre>",
+                "em_text_title": "Event Missions",
+                "em_text": "<pre>\"A one-tab version of the tabs subview that shows Rewards\"\n\"A two-tab version of the tabs subview that shows Challenges, Rewards\"\n\"A three-tab version of the tabs subview that shows Challenges, Missions, Rewards\"\n\nGryphon.Client.UI.SeasonalEvents.EventMissionInfo\nGryphon.Client.UI.SeasonalEvents.EventMissionList\n\nm_allowMultiples\n\"If checked, you can go beyond 1 instance of the mini at a time. This is useful for when you wantto add a mini to a deck, but ignore the add if the user already has that mini in the deck.\"\n\nm_gameplayConfigs\n\"Configuration for specific missions launched by this event.\nContent Gate = (Optional) Mission can only be played if the content gate is unlocked\nRequirement = (Optional) Mission can only be played if the requirement is met\nMission Ref = (Required) Mission to launch\nMission Variant = (Required) Variant of the mission to launch\nEvent Mode = (Optional) Special event mode to apply during the mission\nEvent Currency Reward For Mission = (Required) Amount of event currency to reward for playing\nShort Description = (Optional) Description which appears in mission list.\nShort Description Popup Format = (Optional) If set, the short description will also appear in the mission popup, using this format.\nLong Description = (Optional) Description which appears in mission popup. If unset, descriptions will come from the Event Mode or Mission Glue Info\"\n\nm_missionActiveText\n\"SeasonalEventContentGate/MissionActive\", \"Shown in mission list while missions are active\"\nm_missionLockedText\n\"SeasonalEventContentGate/MissionLocked\", \"Shown in mission list before missions are unlocked\"\n\nm_shortDescription\n\"SeasonalEvents/GameplayConfig/ShortDescription\", \"Short description text which appears in event mission list or popup\"\n\nm_requirementsMetFormat\n\"EventMissionInfo/RequirementsMet\", \"Describes mission requirements that have been met within the dialog body\"\nm_requirementsTooltipFormat\n\"EventMissionInfo/RequirementsTooltip\", \"Describes mission requirements that have not yet been met within the button tooltip\"\nm_requirementsUnmetFormat\n\"EventMissionInfo/RequirementsUnmet\", \"Describes mission requirements that have not yet been met within the dialog body\"</pre>"
+            }
+        ],
+        [
+            "[Blizzard] Patch Notes: Season 13",
+            1741825174,
+            {
+                "blizzard_img": {
+                    "blizzard": [
+                        "Patch Notes Season 13"
+                    ]
+                },
+                "content": "Season 13 is coming, bringing Arthas Menethil, the Lich King, as a new Alliance and Undead Split Leader. We've made adjustments to Leaders, Troops, and Frostwolf Shaman in PvP.",
+                "link": "https://news.blizzard.com/article/24182549/"
+            }
+        ],
+        [
+            "[12.0.0.114816] S13 Avatars, MC Heroic, Army Loadouts, Leader Chromaggus, Mini Skins, Arthas Reforged, Shop Offers",
+            1742019475,
+            {
+                "avatar_text_title": "Season 13. PvP Profile Avatars",
+                "avatar_img": {
+                    "12.0.0.114816": [
+                        "Indicator_PVP_Season13_Rank_1",
+                        "Indicator_PVP_Season13_Rank_2",
+                        "Indicator_PVP_Season13_Rank_3"
+                    ]
+                },
+                
+                "mc_text_title": "Raid. Molten Core - Heroic",
+                "mc_text": "<pre>[Gryphon.Data.Tooltip(\"The difficulty of the mission version, this is used to drive bolt on data in heroic raids and sieges.\")]\npublic MissionDifficulty m_missionDifficulty;\n\npublic enum MissionDifficulty\nDefault = 0\nHeroic = 1\nMythic = 2</pre>",
+                "mc_img": {
+                    "12.0.0.114816": [
+                        "sactx-0-2048x2048-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8",
+                        "sactx-1-2048x2048-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8",
+                        "sactx-2-2048x1024-Uncompressed-Raid_Atl_MoltenCore_UI-055907b8"
+                    ]
+                },
+                
+                "loadouts_text_title": "Army Loadouts. Customize your builds with",
+                "loadouts_text": "<pre>ARMY LOADOUTS!\nSet up multiple loadouts per leader with separate troops, talents, and cosmetics!\nSHARE LOADOUTS\nCopy your loadout code to share a set of troops and talents in guild chat, online, or to copy them to another leader!\n*Unowned minis/talents will not be equipped\nIGM 2025-03-03 18:00:00Z - 2025-03-19 18:00:00Z</pre>",
+                "loadouts_img": {
+                    "12.0.0.114816": [
+                        "InGameMessaging_Tex_Background_2"
+                    ]
+                },
+                
+                "nl_text_title": "New Leader. Chromaggus [WIP]. Blackrock",
+                "nl_text": "<pre>Unlocked by collecting Chromaggus\nChromaggus Portrait\nFamilyBeastBlackrock.data</pre>",
+                "nl_img": {
+                    "12.0.0.114816": [
+                        "Statue_Base_Split_Blackrock_Horde_Pose",
+                        "jolt"
+                    ]
+                },
+                
+                "skin_text_title": "Mini Skins. Jaina Blue & Pink Test",
+                "skin_text": "<pre>[Gryphon.Data.Tooltip(\"Default skin used for this Army. Can be overriden by the player equipment if this is a Player army.This is can be any skin for any mini and it will check against the mini and use the skin if that mini is in the army.This only intende for the use of one skin per mini for missions in the case of two or more skins for a mini in this listit will use the first one it finds.\")]\npublic Skin.Reference[] MiniSkins;</pre>",
+                "skin_img": {
+                    "12.0.0.114816": [
+                        "JainaBlue_Indicator_Pose",
+                        "JainaBlue_Statue_Pose",
+                        "JainaPink_Indicator_Pose",
+                        "JainaPink_Statue_Pose"
+                    ]
+                },
+                "skin2_text": "Skin Rarity<pre>[Tooltip(\"The rarity of this cosmetic, this will dictated how the ui is displayed,currently only supported for mini skins.\")]\npublic CosmeticsSettings.SkinRarity m_rarity;\n\npublic enum SkinRarity\nCommon = 0\nUncommon = 1\nRare = 2\nEpic = 3\nLegendary = 4\nMythic = 5</pre>",
+                "skin3_text": "First Minis with Default Skin<pre>ChainLightning_DefaultSkin\nDarkspearTroll_DefaultSkin\nGnollBrute_DefaultSkin\nGryphonRider_DefaultSkin\nJainaLeader_DefaultSkin\nS.A.F.E.PilotFlyingMachine_DefaultSkin</pre>",
+                
+                "arthas_text_title": "Event. Arthas Reforged [WIP]. The Lich King",
+                "arthas_text": "<pre>ARTHAS\nBattle the Lich King and climb up Icecrown Citadel's treacherous towers! Unlock the new Arthas Leader and shatter your enemy's frozen souls!\nIGM 2025-03-19 18:00:00Z - 2025-04-02 18:00:00Z</pre>",
+                "arthas2_text": "<pre>[Tooltip(\"Featured items that bypass the weekly theme, with start and end times.\")]\npublic FeaturedItemConfig[] m_featuredItems;</pre>",
+                "arthas_img": {
+                    "12.0.0.114816": [
+                        "indicator_Arthas",
+                        "InGamePopup_Tex_Arthas",
+                        "SeasonalEvents_Tex_Island_Arthas",
+                        "SeasonalEvents_Tex_Island_Innactive_Arthas",
+                        "sactx-0-2048x4096-Uncompressed-SeasonalEvents_Atl_UI_Arthas-dec4d45b"
+                    ]
+                },
+                "arthas_link": "?tab=events",
+                
+                "shop_text_title": "Shop Offers",
+                "shop_text": "<pre>Pillars of Frost\nCrown Prince of Lordaeron\nKobold Cenarion</pre>",
+                "shop_img": {
+                    "12.0.0.114816": [
+                        "Store_Tex_Bundle_Tower_Icecrown",
+                        "Store_Tex_Bundle_Skin_Arthas_Prince",
+                        "KoboldCenarionSkin_Statue"
+                    ]
+                },
+                "shop_link": "?tab=store"
+            }
+        ],
+        [
+            "[Blizzard] Season 13 is Going to be Heroic!",
+            1742415841,
+            {
+                "blizzard_img": {
+                    "blizzard": [
+                        "Season 13 is Going to be Heroic!"
+                    ]
+                },
+                "content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader.",
+                "link": "https://news.blizzard.com/article/24177511/"
+            }
+        ],
+        [
+            "[Blizzard] Earn Epic Rewards in Heroic Stormwind Siege",
+            1742836336,
+            {
+                "blizzard_img": {
+                    "blizzard": [
+                        "Earn Epic Rewards in Heroic Stormwind Siege"
+                    ]
+                },
+                "content": "Get ready to lay siege to the Alliance city of Stormwind! Claim victory in the new Normal and Heroic difficulties to earn epic rewards!",
+                "link": "https://news.blizzard.com/article/24182545/"
+            }
+        ],
+        [
+            "[Blizzard] Challenge the Lich King and his Minions",
+            1742836337,
+            {
+                "blizzard_img": {
+                    "blizzard": [
+                        "Challenge the Lich King and his Minions"
+                    ]
+                },
+                "content": "Take to the frozen wastes of Icecrown and battle Arthas at Icecrown Citadel. Defeat him and his minions in a series of 3 challenging maps with increasing difficulty to unlock this new Alliance and Undead Split Leader. Arthas will be the first Leader to receive skins. Alongside Arthas, we have plans for additional Mini skins that will be coming soon, some sooner than others.",
+                "link": "https://news.blizzard.com/article/24177510/"
+            }
+        ],
+        [
+            "[12.0.0.115174] Leader Arthas Menethil Mini, Arthas Reforged Event, Shop Offers",
+            1742938660,
+            {
+                "mini_text_title": "Mini. Leader Arthas Menethil",
+                "mini_video": {
+                    "12.0.0.115174": [
+                        "Gryphon_MiniShorts_Arthas"
+                    ]
+                },
+                "mini_img": {
+                    "12.0.0.115174": [
+                        "ArthasLeader_Indicator_Icon",
+                        "ArthasLeader_Statue",
+                        "Portrait_Leader_Arthas",
+                        "talent_icytalons",
+                        "talent_necroticplague",
+                        "talent_purgatory"
+                    ]
+                },
+                
+                "event_text_title": "Event. Arthas Reforged",
+                "event_text": "<pre><b>A sharply frigid air fills your lungs, and for a brief moment, the dense fog clears ever so slightly... towering above the corrupted mists, you see the ominous and unmistakable silhouette of Icecrown Citadel! The freezing air permeates your entire being - somehow, your very soul feels icy and brittle. Enter, brave one, and battle your way up towards the Frozen Throne, to vanquish the Lich King Arthas! Rise to the occasion and fight your way through Normal, Heroic, and Mythic variants! Unlock the brand new Arthas Menethil leader, and harness his Soulshattering, skeleton-raising might against your foes!</b><br><br><b>The Lower Spire (Normal):</b> Arthas calls Mor'Ladim into service to patrol the Lower Spire! Minis who die near them are converted into enemy Skeleton Mages! Look out for Arthas's Frost aura, along with periodic Skeletal summons at buildings he controls, and more Skeletal summons at certain health thresholds!<br><br><b>The Pit of Saron (Normal):</b> Arthas continues to summon Skeletal reinforcements, and enlists the help of dangerous Gargoyles to dismantle your fortifications! Be wary of his Winter Storms, freezing your Minis, who damage nearby allies when they snap out!<br><br><b>The Frozen Throne (Normal):</b> Arthas empowers himself for his final stand, and brings new abilities to the fight! Be on the watch for Undead Footmen summons, AOE anti-air, and more. Steel yourself against his menacing Death Grip, pulling Ranged Minis into his grasp. Guard your buildings from his deadly Defile, slowly corrupting and crumbling your defenses! Will you prevail?<br><br><b>The Lower Spire (Heroic):</b> All enemies gain 2 levels! Mini-Rattlegores patrol the area, and Mor'Ladim gains a Frost aura!<br><br><b>The Pit of Saron (Heroic):</b> All enemies gain 2 levels! Additional Gargoyles and Mini-Gishes wait menacingly on the path to Arthas. Explosive Abominations join the fight, and Winter Storms are more frequent!<br><br><b>The Frozen Throne (Heroic):</b> All enemies gain 2 levels! Arthas gains Icy Talons, granting him increased attack speed for each of your nearby Minis!<br><br><b>The Lower Spire (Mythic):</b> All enemies gain 4 levels! Mor'Ladim summons Undead Footmen on death! Arthas and Mor'Ladim send out map-wise Frost waves at 50% health!<br><br><b>The Pit of Saron (Mythic):</b> All enemies gain 4 levels! Gish awaits you in true form. Your Minis are subject to Soulshatter - while Frosted, any damage below 20% health will kill them instantly! Arthas also applies Poison with his Winter Storms and at health thresholds!<br><br><b>The Frozen Throne (Mythic):</b> All enemies gain 4 levels! Baron Rivendare arrives to protect Arthas and summon additional Skeletons to the fight! Arthas takes towers and Freezes your Minis more often!</pre>",
+                "event_img": {
+                    "12.0.0.115174": [
+                        "LoadingScreen_Tex_Arthas",
+                        "sactx-0-2048x4096-Uncompressed-SeasonalEvents_Atl_UI_Arthas-32f2902c"
+                    ]
+                },
+                "event_link": "?tab=events",
+                
+                "shop_text_title": "Shop Offers",
+                "shop_text": "<pre>Crown Prince of Lordaeron\nEpic Arthas Awakens\nPillars of Frost</pre>",
+                "shop_img": {
+                    "12.0.0.115174": [
+                        "Store_Tex_ArthasBundle_Large"
+                    ]
+                },
+                "shop_link": "?tab=store"
+            }
+        ],
+        [
+            "[Blizzard] Hotfix for the Lich King Event and Heroic Stormwind",
+            1743201495,
+            {
+                "blizzard_img": {
+                    "blizzard": [
+                        "Hotfix for the Lich King Event and Heroic Stormwind"
+                    ]
+                },
+                "content": "We've slightly reduced the difficulty for Normal Lower Spire, fixed an issue with Lich King skipping phase transitions, and fixed an issue that kept Highlord Bolvar Fordragon from activating his Consecrate ability in Heroic Stormwind Siege.",
+                "link": "https://news.blizzard.com/article/24188489/"
+            }
+        ],
+        [
+            "[Blizzard] Hotfix: April 1, 2025",
+            1743537454,
+            {
+                "blizzard_img": {
+                    "blizzard": [
+                        "Hotfix April 1, 2025"
+                    ]
+                },
+                "content": "Tap the shark in Booty Bay for a jaws-ome surprise! We've fixed issues with Polymorph and the Lich King's Soulshatter ability that would cause the game to crash.",
+                "link": "https://news.blizzard.com/article/24188491/"
+            }
+        ]
+    ],
+    "timestamp": 1743537454
 }
