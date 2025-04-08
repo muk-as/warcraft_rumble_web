@@ -220,7 +220,28 @@
                 "content": "We've reduced enemy income on all difficulties, reduced the level of Normal Missions by 1, and reduced the difficulty of Heroic Pit of Saron.",
                 "link": "https://news.blizzard.com/article/24188490/"
             }
+        ],
+        [
+            "[12.1.0.115633] Blackrock Coalbold Skin, Events, Shop Offers",
+            1744141994,
+            {
+                "skin_text_title": "Blackrock Coalbold Skin",
+				"akin_img": {
+                    "12.1.0.115633": [
+                        "Indicator_BlackrockKobold_Pose_Rounded",
+                        "KoboldBlackRockSkin_Statue"
+                    ]
+                },
+				
+				"event_text_title": "Events",
+                "event_text": "<pre>Gadget Bonanza 6\nLogin Calendar 1\nDarkmoon Faire 14\n</pre>",
+                "event_link": "?tab=events",
+                
+                "shop_text_title": "Shop Offers",
+                "shop_text": "<pre>F.R.E.E. Present\nIncubation Starter\nEggscelent Epic\nGreat Eggscape Mythic\nLegendary Nest Egg</pre>",
+                "shop_link": "?tab=store"
+            }
         ]
     ],
-    "timestamp": 1743620690
+    "timestamp": 1744141994
 }
